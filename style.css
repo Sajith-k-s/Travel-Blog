@@ -545,9 +545,9 @@ section{
     }
     .b{
         position: relative;
-        right: 500px;
+        right: 480px;
         bottom: 140px;
-        width: 900px;
+        width: 850px;
     }
     #b1{
       font-size: 40px;
@@ -560,7 +560,7 @@ section{
     }
     .bb{
         position: relative;
-        right: 500px;
+        right: 480px;
         bottom: 180px
     }
     #td{
@@ -592,7 +592,7 @@ section{
     }
     #uuu{
       position: relative;
-      left: 200px;
+      left: 170px;
     }
     .rea{
         font-size: 36px;
@@ -613,7 +613,7 @@ section{
     }
     .sss1{
         position: relative;
-        right: 450px;
+        right: 460px;
         font-size: 18px;
     }
     .sss2{
@@ -621,7 +621,7 @@ section{
     }
     .input-container{
         position: relative;
-        left: 20px;
+        left: -90px;
         top: -230px;
     }
     .just{
