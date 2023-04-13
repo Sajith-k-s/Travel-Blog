@@ -560,7 +560,7 @@ section{
     }
     .bb{
         position: relative;
-        right: 480px;
+        right: 540px;
         bottom: 180px
     }
     #td{
@@ -592,7 +592,7 @@ section{
     }
     #uuu{
       position: relative;
-      left: 170px;
+      left: 140px;
     }
     .rea{
         font-size: 36px;
@@ -621,7 +621,7 @@ section{
     }
     .input-container{
         position: relative;
-        left: -90px;
+        left: -1px;
         top: -230px;
     }
     .just{
@@ -650,6 +650,6 @@ section{
         font-size: 10px;
     } 
     #vvv{
-        padding: 5px;
+        padding: 3px;
     }
 }
