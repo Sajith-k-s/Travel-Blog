@@ -1,0 +1,653 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffdd064;
+    position: relative;
+}
+.bcc{
+    background-color: #fffdd088;
+}
+.a{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/travel-hd.jpg);
+    position: relative;
+    margin-bottom: 85px;
+}
+#aa{
+    position: absolute;
+    left: 280px;
+}
+.a2{
+    position: absolute;
+    top: 70px;
+    left: 530px; 
+}
+.a3{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.a3:hover{
+    background-color: rgba(255, 255, 255, 0.642);
+    color: black;
+    padding: 10px;
+}
+#b1{
+    font-size: 70px;
+    font-weight: bolder;
+    position: absolute;
+    top: 300px;
+    left: 480px;
+    border: 5px solid rgba(0, 0, 0, 0.086);
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px;
+    font-family: 'Acme', sans-serif;
+}
+#b1:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+}
+
+#b2{
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 430px;
+    left: 600px;
+    font-family: 'Jost', sans-serif;
+}
+#wew{
+    color: black;
+}
+.search{
+    position: absolute;
+    top: 580px;
+    left: 640px; 
+    font-weight: bolder; 
+    border: 3px solid black;
+    display: inline-flex;
+    align-items: center;
+   background-color: rgba(255, 255, 255, 0.604);
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.search :is(input,button) {
+    background: transparent;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+.search__input {
+    width: 0;
+    transition: width 0.5s;
+}
+.search__button {
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: color .25s;
+}
+.search:focus-within input {
+    width: 200px;
+}
+
+#tr{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: 'Quattrocento', serif;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.859);
+    text-shadow: 6px 6px 6px;
+}
+#tr:hover{
+    text-decoration: underline;
+}
+.card{    
+    border-radius: 4px;
+}
+.card-title{
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 120px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px 10px;
+}
+
+.card-img-top{
+    transition: 2s;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover h5{
+    transform: scale(0.9);
+    background-color: rgba(0, 0, 0, 0.442);
+}
+.card-text{
+    font-weight: bolder;
+}
+.row{
+    margin-bottom: 210px;
+    background-color: #fffdd07c;
+}
+.carousel-inner{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.284);
+    margin-bottom: 120px;
+}
+.carousel-item active{
+    position: absolute;
+    left: 90px;
+}
+.carousel-item img{
+    box-shadow: 10px 12px 16px;
+}
+.carousel slide{
+    position: relative;
+}
+#td{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: 'Quattrocento', serif;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.781);
+    position: absolute;
+    bottom: 630px;
+    left: 600px;
+    top: 1830px;
+    text-shadow: 6px 6px 6px
+}
+#td:hover{
+    text-decoration: underline;
+}
+.imgg{
+    position: absolute;
+}
+.hh{
+    font-weight: bolder;
+    font-size: 31px;
+    color: rgba(128, 128, 128, 0.944);
+    text-shadow: 1px 1px 2px;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.st{
+    height: 700px;
+    width: 100%;
+    background-color: #fffdd07c;
+    position: relative;
+}
+.ss1{
+   height: 200px;
+   width: 560px;
+   background-color: lightgray;
+   float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.67);
+    box-shadow: 8px 8px 10px;
+}
+.ss2{
+    height: 200px;
+    width: 560px;
+    background-color:  rgba(128, 128, 128, 0.301);
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.67);
+    box-shadow: 8px 8px 10px;
+    background-image: url(./images/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+#ii{
+    font-weight: bolder;
+    font-size: 46px;
+    color: rgba(0, 0, 0, 0.781);
+    text-shadow: 3px 3px 3px;
+    margin-left: 170px;
+    margin-top: 1px;
+ }
+ #ii:hover{
+    text-decoration: underline;
+ }
+ #iii{
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 160px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.721);
+ }
+ #v{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.889);
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Secular One', sans-serif;
+ }
+ #vv{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+ }
+#vvv{
+    position: absolute;
+   left: 220px;
+   top: 260px;
+   padding: 7px;
+   color: white;
+   background-color: #007FFF;
+   font-family: 'Hammersmith One', sans-serif;
+   border-radius: 5px;
+}
+#vvv:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+.imggg{
+    position: absolute;
+    left: 470px;
+    bottom: 330px;
+}
+
+
+#u{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.889);
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Secular One', sans-serif;
+ }
+ #uu{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+ }
+#uuu{
+    position: absolute;
+   left: 810px;
+   padding: 7px;
+   color: white;
+   background-color: #007FFF;
+   font-family: 'Hammersmith One', sans-serif;
+    border-radius: 5px;
+}
+
+#uuu:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+
+.sm{
+    height: 220px;
+    width: 1150px;
+    border: 2px solid rgba(0, 0, 0, 0.67);
+    box-shadow: 8px 8px 10px;
+    background-color: #fffdd07c;
+    position: absolute;
+    left: 160px;
+    top: 420px;
+    background-image: url(./images/ww.jpg)
+}
+.sm:hover{
+    background-image: url(./images/abc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.get{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.889);
+    font-size: 26px;
+    padding-left: 400px;
+    padding-top: 32px;
+    font-family: 'Secular One', sans-serif;
+}
+.just{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    padding-left: 340px;
+    padding-top: 12px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#uuuu{
+    position: absolute;
+    top: 150px;
+    left: 430px;
+   padding: 7px;
+   color: white;
+   background-color: #007FFF;
+   font-family: 'Hammersmith One', sans-serif;
+    border-radius: 5px;
+}
+
+#uuuuu{
+    position: absolute;
+    top: 150px;
+    left: 540px;
+   padding: 7px;
+   color: white;
+   background-color: #007FFF;
+   font-family: 'Hammersmith One', sans-serif;
+    border-radius: 5px;
+}
+
+#uuuu:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+
+#uuuuu:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+.imm{
+    position: absolute;
+    top: 29px;
+    left: 60px;
+    width: 160px;
+   
+}
+.bnm{
+    height: 270px;
+    width: 100%;
+    background-color: #080808ec;
+    position: absolute;
+    top: 3654px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 4px 5px 6px;
+}
+.sss1{
+    
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    padding-left: 600px;
+    padding-top: 52px;
+    font-family: 'Secular One', sans-serif;
+}
+.sss2{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-left: 550px;
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+.input-container{
+    width: 280px;
+   position: absolute;
+   left: 550px;
+   top: 150px;
+}
+@keyframes shake {
+    0%, 100% {translate:0;}
+    25% {translate: 8px 0;}
+    75% {translate: -8px 0;}
+}
+.text-input{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color: black;
+    font-weight: bold;
+    animation: shake 0.14s 3;
+}
+.text-input:valid{
+    animation: none;
+}
+
+.but{
+    position: absolute;
+    left: 290px;
+    top: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: grey;
+    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.but:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+footer{
+    position: relative;
+    top: 230px;
+    background-color: #080808ec;
+}
+section{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.card22{
+    background-color: #080808ec;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.card-icon{
+    font-size: 34px;
+   position: relative;
+   top: 40px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.3s linear;
+}
+.card22:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+.card22 p{
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card22:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+.rea{
+    font-weight: bolder;
+    font-size: 46px;
+    color: rgba(0, 0, 0, 0.781);
+    text-shadow: 3px 3px 3px;
+    margin-left: 170px;
+    margin-top: 35px;
+}
+.rea:hover{
+    text-decoration: underline;
+ }
+ .cnnc{
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 160px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.721);
+ }
+
+ @media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .a2{
+        width: 100%;
+        display: inline;
+        position: relative;
+        left: 50px;
+        top: 100px;
+        font-size: 6px;
+    }
+    #aa{
+        visibility: hidden;
+    }
+    .b{
+        position: relative;
+        right: 400px;
+        bottom: 140px;
+        width: 900px;
+    }
+    #b1{
+      font-size: 40px;
+    }
+    #b2{
+        font-size: 15px;
+        position: relative;
+        top: 400px;
+        left: 540px;
+    }
+    .bb{
+        position: relative;
+        right: 500px;
+        bottom: 180px
+    }
+    #td{
+        position: relative;
+        left: 100px;
+        top: 1px;
+    }
+    #ii{
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    #iii{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .ss1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ss2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sm{
+      width: 100%;
+      margin-left: 0;
+      position: relative;
+     left: 0px;
+     top: 550px;
+    }
+    #uuu{
+      position: relative;
+      left: 200px;
+    }
+    .rea{
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    .cnnc{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .contact-info{
+        margin-left: 0;
+        width: 100%;
+    }
+    .bnm{
+        width: 100%;
+        position: relative;
+        top: 640px;
+    }
+    .sss1{
+        position: relative;
+        right: 400px;
+        font-size: 18px;
+    }
+    .sss2{
+      visibility: hidden;
+    }
+    .input-container{
+        position: relative;
+        left: 50px;
+        top: -0px;
+    }
+    .just{
+        visibility: hidden;
+    }
+    .get{
+        position: relative;
+        top: -440px;
+        left: -120px;
+        font-size: 19px;
+    }
+    #uuuu{
+        position: relative;
+        left: 230px;
+        top: -590px;
+    }
+    #uuuuu{
+        position: relative;
+        left: 240px;
+        top: -590px;
+    }
+    .imggg{
+        visibility: hidden;
+    }
+    .card22 p {
+        font-size: 10px;
+    } 
+}
